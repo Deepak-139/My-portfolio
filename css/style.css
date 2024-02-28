@@ -681,6 +681,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     width: 304px;
     height: 264px;
     background: url(../images/dots.png) right top; }
+  
+@media (max-width: 991.98px) {
+    .img-wrap:before {
+    -webkit-transform: translate(0%, -20%);
+    -ms-transform: translate(0%, -20%);
+    transform: translate(0%, -20%); 
+    } 
+  }
 
 .site-service-item {
   padding: 30px;
